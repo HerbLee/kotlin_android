@@ -42,7 +42,7 @@ class LibManager private constructor(){
 
     private fun initArouter() {
 //         val build = PrettyFormatStrategy.newBuilder().showThreadInfo(true).tag("herb2sy").build()
-        Logger.addLogAdapter(AndroidLogAdapter())
+//         Logger.addLogAdapter(AndroidLogAdapter())
 //         Logger.addLogAdapter(DiskLogAdapter())
 
     }
