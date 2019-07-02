@@ -115,7 +115,12 @@ class Kokhttp {
         if (bean.paramsMap != null){
             params.putAll(bean.paramsMap!!)
         }
-
+        if (params.size > 0){
+            params.keys.forEach {
+                builder.add(it,params[it])
+            }
+        }
+      
 
         val requestBody = builder.build()
         val builder1 = Request.Builder()
