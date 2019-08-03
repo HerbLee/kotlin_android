@@ -11,7 +11,7 @@
   
 
 	dependencies {
-		implementation 'com.github.HerbLee:kotlin_android:v1.0.4'
+		implementation 'com.github.HerbLee:kotlin_android:v1.0.6'
 	}
 	
 	api "com.squareup.okhttp3:okhttp:3.7.0"
